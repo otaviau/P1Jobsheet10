@@ -7,6 +7,7 @@ public class QueueMain {
         System.out.println("3. Print");
         System.out.println("4. Peek");
         System.out.println("5. Clear");
+        System.out.println("6. Exit");
         System.out.println("---------------------------------");
 }
     public static void main(String[] args) {
@@ -38,6 +39,10 @@ public class QueueMain {
                     break;
                 case 5:
                     Q.clear();
+                    break;
+                case 6:
+                    System.out.println("Program dihentikan.");
+                    System.exit(0);
                     break;
                 default:
                     break;
